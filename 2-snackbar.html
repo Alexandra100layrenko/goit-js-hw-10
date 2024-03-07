@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Snackbar</title>
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/izitoast@1.4.0/dist/css/iziToast.min.css">
+  <script type="module" crossorigin src="/goit-js-hw-10/assets/styles-64ceddbd.js"></script>
+  <script type="module" crossorigin src="/goit-js-hw-10/assets/vendor-77e16229.js"></script>
+  <script type="module" crossorigin src="/goit-js-hw-10/assets/2-snackbar-b8540cf5.js"></script>
+  <link rel="stylesheet" href="/goit-js-hw-10/assets/styles-8fdbb6ea.css">
+  <link rel="stylesheet" href="/goit-js-hw-10/assets/vendor-7a007824.css">
+</head>
+<body>
+  <section>
+    <a href="./index.html" class="crumbs">Go to home</a>
+    <h1>Snackbar</h1>
+  </section>
+
+  <form class="form">
+    <div class="form-group">
+      <label for="delay">Delay (ms)</label>
+      <input type="number" name="delay" id="delay" required />
+    </div>
+
+    <div class="form-group">
+      <fieldset>
+        <legend>State</legend>
+        <label>
+          <input type="radio" name="state" value="fulfilled" required />
+          Fulfilled
+        </label>
+        <label>
+          <input type="radio" name="state" value="rejected" required />
+          Rejected
+        </label>
+      </fieldset>
+    </div>
+
+    <button type="submit">Create notification</button>
+  </form>
+
+  <script src="https://cdn.jsdelivr.net/npm/izitoast@1.4.0/dist/js/iziToast.min.js"></script>
+  
+</body>
+
+</html>
